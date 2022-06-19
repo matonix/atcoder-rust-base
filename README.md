@@ -3,6 +3,25 @@
 # 変更点
 - rust-toolchain を削除 (rust-analyzerのエラー回避のため。 [参考](https://paruma184.hatenablog.com/entry/2021/09/22/210945))
 
+## TODO
+- [ ] 以下のディレクトリ構造に対応（sample_inputs はいらない）
+- [ ] コンテスト開始時のIOのパーズとケース生成 [参考](https://qiita.com/togatoga/items/d4a9ffb30e3ae6731871)
+
+```
+.
+├── Cargo.lock
+├── Cargo.toml
+├── LICENSE
+├── src/bin
+│   ├── a.rs
+│   ├── b.rs
+│   └── ...
+└── tests
+    ├── a.rs
+    ├── b.rs
+    └── ...
+```
+
 # AtCoder Rust Base (`ja`)
 
 このリポジトリには[AtCoder][atcoder]コンテスト（競技プログラミング）にRustで参加するためのCargoパッケージテンプレートが用意されています。
