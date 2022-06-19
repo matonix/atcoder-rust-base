@@ -1,5 +1,8 @@
 <!-- -*- coding:utf-8-unix -*- -->
 
+# 変更点
+- rust-toolchain を 1.48.0 に設定 (rust-analyzerのエラー回避のため。 [参考](https://github.com/matonix/atcoder-rust-base.git))
+
 # AtCoder Rust Base (`ja`)
 
 このリポジトリには[AtCoder][atcoder]コンテスト（競技プログラミング）にRustで参加するためのCargoパッケージテンプレートが用意されています。
