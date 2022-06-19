@@ -1,7 +1,7 @@
 <!-- -*- coding:utf-8-unix -*- -->
 
 # 変更点
-- rust-toolchain を 1.48.0 に設定 (rust-analyzerのエラー回避のため。 [参考](https://github.com/matonix/atcoder-rust-base.git))
+- rust-toolchain を削除 (rust-analyzerのエラー回避のため。 [参考](https://paruma184.hatenablog.com/entry/2021/09/22/210945))
 
 # AtCoder Rust Base (`ja`)
 
