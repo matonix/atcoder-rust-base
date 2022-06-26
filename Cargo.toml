@@ -10,19 +10,38 @@ edition = "2018"
 name = "main"
 path = "src/main.rs"
 
-[dependencies]
-# AtCoder 2020年言語アップデート以降に使用できるクレート。
-# 次のページに各クレートについての細かい紹介があります。
-# https://github.com/rust-lang-ja/atcoder-rust-resources/wiki/2020-Update
+[[bin]]
+name = "a"
+path = "src/a.rs"
+
+[[bin]]
+name = "b"
+path = "src/b.rs"
+
+[[bin]]
+name = "c"
+path = "src/c.rs"
+
+[[bin]]
+name = "d"
+path = "src/d.rs"
+
+[[bin]]
+name = "e"
+path = "src/e.rs"
+
+[[bin]]
+name = "f"
+path = "src/f.rs"
 
 # 数値型の抽象化、多倍長整数、複素数、分数、及び整数型の拡張
-#num = "=0.2.1"
-#num-bigint = "=0.2.6"
-#num-complex = "=0.2.4"
-#num-integer = "=0.1.42"
-#num-iter = "=0.1.40"
-#num-rational = "=0.2.4"
-#num-traits = "=0.2.11"
+num = "=0.2.1"
+num-bigint = "=0.2.6"
+num-complex = "=0.2.4"
+num-integer = "=0.1.42"
+num-iter = "=0.1.40"
+num-rational = "=0.2.4"
+num-traits = "=0.2.11"
 
 # `num-traits`の自動実装
 #num-derive = "=0.3.0"
@@ -51,7 +70,7 @@ path = "src/main.rs"
 #rand_distr = "=0.2.2"
 
 # グラフ
-#petgraph = "=0.5.0"
+petgraph = "=0.5.0"
 
 # 挿入順を保持するhash table
 #indexmap = "=1.3.2"
@@ -72,16 +91,16 @@ path = "src/main.rs"
 #permutohedron = "=0.2.4"
 
 # スライスの拡張
-#superslice = "=1.0.0"
+superslice = "=1.0.0"
 
 # イテレータの拡張
-#itertools = "=0.9.0"
+itertools = "=0.9.0"
 
 # イテレータの拡張（一次元累積和と浮動小数点数の等差数列）
-#itertools-num = "=0.1.3"
+itertools-num = "=0.1.3"
 
 # `BTreeMap`, `BTreeSet`, `HashMap`, `HashSet`のリテラル用マクロ
-#maplit = "=1.0.2"
+maplit = "=1.0.2"
 
 # 即席enum `Either<L, R>`
 #either = "=1.5.3"
