@@ -1,6 +1,6 @@
 use cli_test_dir::*;
 
-const BIN: &'static str = "./main";
+const BIN: &'static str = "./a";
 
 #[test]
 fn sample1() {
